@@ -1,0 +1,150 @@
+[
+  {
+    "id": 1,
+    "nombre": "Family",
+    "icono": "fa-solid fa-dog", 
+    "color": "#000000",
+    "preguntas": [
+      {
+        "id": 1,
+        "palabra": "Hermana", 
+        "respuestas": [
+          {
+            "palabra": "Brother",
+            "correcta": false
+          },
+          {
+            "palabra": "Mother",
+            "correcta": false
+          },
+          {
+            "palabra": "Water",
+            "correcta": false
+          },
+          {
+            "palabra": "Sister",
+            "correcta": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "palabra": "Madre", 
+        "respuestas": [
+          {
+            "palabra": "Brother",
+            "correcta": false
+          },
+          {
+            "palabra": "Mother",
+            "correcta": true
+          },
+          {
+            "palabra": "Water",
+            "correcta": false
+          },
+          {
+            "palabra": "Sister",
+            "correcta": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "palabra": "Hermano", 
+        "respuestas": [
+          {
+            "palabra": "Brother",
+            "correcta": true
+          },
+          {
+            "palabra": "Mother",
+            "correcta": false
+          },
+          {
+            "palabra": "Water",
+            "correcta": false
+          },
+          {
+            "palabra": "Sister",
+            "correcta": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Animals",
+    "icono": "fa-solid fa-people-roof", 
+    "color": "#F27B7B",
+    "preguntas": [
+      {
+        "id": 1,
+        "palabra": "Perro", 
+        "respuestas": [
+          {
+            "palabra": "Dog",
+            "correcta": true
+          },
+          {
+            "palabra": "Mother",
+            "correcta": false
+          },
+          {
+            "palabra": "Water",
+            "correcta": false
+          },
+          {
+            "palabra": "Sister",
+            "correcta": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "palabra": "Gato", 
+        "respuestas": [
+          {
+            "palabra": "Brother",
+            "correcta": false
+          },
+          {
+            "palabra": "Cat",
+            "correcta": true
+          },
+          {
+            "palabra": "Water",
+            "correcta": false
+          },
+          {
+            "palabra": "Sister",
+            "correcta": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "palabra": "Pájaro", 
+        "respuestas": [
+          {
+            "palabra": "Bird",
+            "correcta": true
+          },
+          {
+            "palabra": "Mother",
+            "correcta": false
+          },
+          {
+            "palabra": "Water",
+            "correcta": false
+          },
+          {
+            "palabra": "Sister",
+            "correcta": false
+          }
+        ]
+      }
+    ]
+  }
+]

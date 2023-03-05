@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "nombre": "Goku",
+    "imagenPerfil": "profile-pics/goku.jpg",
+    "coronas": 2,
+    "vidas": 5,
+    "resultados": [
+      {
+        "category": 1,
+        "correctas": 4,
+        "incorrectas": 1,
+        "aprobada": false
+      },
+      {
+        "category": 2,
+        "correctas": 4,
+        "incorrectas": 1,
+        "aprobada": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Vegeta",
+    "imagenPerfil": "profile-pics/vegeta.jpg",
+    "coronas": 2,
+    "vidas": 5,
+    "resultados": [
+      {
+        "category": 1,
+        "correctas": 5,
+        "incorrectas": 0,
+        "aprobada": true
+      },
+      {
+        "category": 2,
+        "correctas": 4,
+        "incorrectas": 1,
+        "aprobada": false
+      }
+    ]
+  }
+]

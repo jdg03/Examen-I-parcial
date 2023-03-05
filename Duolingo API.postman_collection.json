@@ -1,0 +1,112 @@
+{
+	"info": {
+		"_postman_id": "e54bb701-7133-44ff-8e7b-ffff8aa06dc2",
+		"name": "Duolingo API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24822985"
+	},
+	"item": [
+		{
+			"name": "Obtener usuarios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/usuarios",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"usuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener un usuario",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/usuarios/2",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"usuarios",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Guardar Usuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1,\n    \"nombre\": \"Bulma\",\n    \"imagenPerfil\": \"profile-pics/bulma.jpg\",\n    \"coronas\": 2,\n    \"vidas\": 5,\n    \"resultados\": []\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/usuarios",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"usuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener categorias",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/categorias",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"categorias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener preguntas por categoria",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/categorias/1/preguntas",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"categorias",
+						"1",
+						"preguntas"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
