@@ -2,7 +2,6 @@
   "workbench.colorCustomizations": {
     "[Community Material Theme]": {},
     "menu.background": "#FF4081",
-    "activityBarBadge.background": "#FF4081",
     "activityBar.activeBorder": "#FF4081",
     "list.activeSelectionForeground": "#FF4081",
     "list.inactiveSelectionForeground": "#FF4081",
@@ -12,7 +11,6 @@
     "textLink.foreground": "#FF4081",
     "progressBar.background": "#FF4081",
     "pickerGroup.foreground": "#FF4081",
-    "tab.activeBorder": "#FF4081",
     "notificationLink.foreground": "#FF4081",
     "editorWidget.resizeBorder": "#FF4081",
     "editorWidget.border": "#FF4081",
@@ -39,9 +37,24 @@
     "editor.selectionBackground": "#ac0039",
     "editor.selectionHighlightBackground": "#ac0039",
     "editorLineNumber.foreground": "#970033",
-    "activityBar.background": "#0C350E",
-    "titleBar.activeBackground": "#114A14",
-    "titleBar.activeForeground": "#F3FCF3"
+    "activityBar.activeBackground": "#f27d5b",
+    "activityBar.background": "#f27d5b",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#89f6a1",
+    "activityBarBadge.foreground": "#15202b",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#f27d5b",
+    "statusBar.background": "#ee582c",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#f27d5b",
+    "statusBarItem.remoteBackground": "#ee582c",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#ee582c",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#ee582c99",
+    "titleBar.inactiveForeground": "#e7e7e799"
   },
-  "liveServer.settings.port": 5501
+  "liveServer.settings.port": 5501,
+  "peacock.color": "#ee582c"
 }

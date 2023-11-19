@@ -8,37 +8,108 @@
     "resultados": [
       {
         "category": 1,
-        "correctas": 4,
-        "incorrectas": 1,
+        "correctas": 0,
+        "incorrectas": 2,
         "aprobada": false
       },
       {
         "category": 2,
-        "correctas": 4,
-        "incorrectas": 1,
-        "aprobada": false
+        "correctas": 2,
+        "incorrectas": 0,
+        "aprobada": true
+      },
+      {
+        "category": 3,
+        "correctas": 2,
+        "incorrectas": 0,
+        "aprobada": true
       }
     ]
   },
   {
     "id": 2,
-    "nombre": "Vegeta",
-    "imagenPerfil": "profile-pics/vegeta.jpg",
+    "nombre": "Gohan",
+    "imagenPerfil": "profile-pics/gohan.jpg",
     "coronas": 2,
     "vidas": 5,
     "resultados": [
       {
         "category": 1,
-        "correctas": 5,
+        "correctas": 0,
+        "incorrectas": 2,
+        "aprobada": false
+      },
+      {
+        "category": 2,
+        "correctas": 2,
         "incorrectas": 0,
         "aprobada": true
       },
       {
-        "category": 2,
-        "correctas": 4,
-        "incorrectas": 1,
-        "aprobada": false
+        "category": 3,
+        "correctas": 2,
+        "incorrectas": 0,
+        "aprobada": true
       }
     ]
+  },
+  {
+    "id": 3,
+    "nombre": "Bulma",
+    "imagenPerfil": "profile-pics/bulma.jpg",
+    "coronas": 2,
+    "vidas": 5,
+    "resultados": [
+      {
+        "category": 1,
+        "correctas": 0,
+        "incorrectas": 2,
+        "aprobada": false
+      },
+      {
+        "category": 2,
+        "correctas": 2,
+        "incorrectas": 0,
+        "aprobada": true
+      },
+      {
+        "category": 3,
+        "correctas": 2,
+        "incorrectas": 0,
+        "aprobada": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Videl",
+    "imagenPerfil": "profile-pics/videl.jpg",
+    "coronas": 2,
+    "vidas": 5,
+    "resultados": []
+  },
+  {
+    "id": 5,
+    "nombre": "Naruto",
+    "imagenPerfil": "profile-pics/naruto.jpg",
+    "coronas": 2,
+    "vidas": 5,
+    "resultados": []
+  },
+  {
+    "id": 6,
+    "nombre": "Hinata",
+    "imagenPerfil": "profile-pics/hinata.jpg",
+    "coronas": 2,
+    "vidas": 5,
+    "resultados": []
+  },
+  {
+    "id": 7,
+    "nombre": "Sasuke",
+    "imagenPerfil": "profile-pics/sasuke.jpg",
+    "coronas": 2,
+    "vidas": 5,
+    "resultados": []
   }
 ]

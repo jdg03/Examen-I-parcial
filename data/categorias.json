@@ -2,12 +2,12 @@
   {
     "id": 1,
     "nombre": "Family",
-    "icono": "fa-solid fa-dog", 
-    "color": "#000000",
+    "icono": "fa-solid fa-people-roof",
+    "color": "#F27B7B",
     "preguntas": [
       {
         "id": 1,
-        "palabra": "Hermana", 
+        "palabra": "Hermana",
         "respuestas": [
           {
             "palabra": "Brother",
@@ -29,32 +29,10 @@
       },
       {
         "id": 2,
-        "palabra": "Madre", 
+        "palabra": "Familia",
         "respuestas": [
           {
-            "palabra": "Brother",
-            "correcta": false
-          },
-          {
-            "palabra": "Mother",
-            "correcta": true
-          },
-          {
-            "palabra": "Water",
-            "correcta": false
-          },
-          {
-            "palabra": "Sister",
-            "correcta": false
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "palabra": "Hermano", 
-        "respuestas": [
-          {
-            "palabra": "Brother",
+            "palabra": "Family",
             "correcta": true
           },
           {
@@ -66,7 +44,7 @@
             "correcta": false
           },
           {
-            "palabra": "Sister",
+            "palabra": "Java",
             "correcta": false
           }
         ]
@@ -76,71 +54,153 @@
   {
     "id": 2,
     "nombre": "Animals",
-    "icono": "fa-solid fa-people-roof", 
-    "color": "#F27B7B",
+    "icono": "fa-solid fa-dog",
+    "color": "#e38afd",
     "preguntas": [
       {
         "id": 1,
-        "palabra": "Perro", 
+        "palabra": "Perro",
         "respuestas": [
+          {
+            "palabra": "Cat",
+            "correcta": false
+          },
+          {
+            "palabra": "Fish",
+            "correcta": false
+          },
+          {
+            "palabra": "Chicken",
+            "correcta": false
+          },
           {
             "palabra": "Dog",
             "correcta": true
-          },
-          {
-            "palabra": "Mother",
-            "correcta": false
-          },
-          {
-            "palabra": "Water",
-            "correcta": false
-          },
-          {
-            "palabra": "Sister",
-            "correcta": false
           }
         ]
       },
       {
         "id": 2,
-        "palabra": "Gato", 
+        "palabra": "Gato",
         "respuestas": [
-          {
-            "palabra": "Brother",
-            "correcta": false
-          },
           {
             "palabra": "Cat",
             "correcta": true
           },
           {
-            "palabra": "Water",
+            "palabra": "Dog",
             "correcta": false
           },
           {
-            "palabra": "Sister",
+            "palabra": "Chicken",
             "correcta": false
+          },
+          {
+            "palabra": "Worm",
+            "correcta": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Food",
+    "icono": "fa-solid fa-utensils",
+    "color": "#967cf2",
+    "preguntas": [
+      {
+        "id": 1,
+        "palabra": "Manzana",
+        "respuestas": [
+          {
+            "palabra": "Orange",
+            "correcta": false
+          },
+          {
+            "palabra": "Carrot",
+            "correcta": false
+          },
+          {
+            "palabra": "Pinaple",
+            "correcta": false
+          },
+          {
+            "palabra": "Apple",
+            "correcta": true
           }
         ]
       },
       {
-        "id": 3,
-        "palabra": "Pájaro", 
+        "id": 2,
+        "palabra": "Tomate",
         "respuestas": [
           {
-            "palabra": "Bird",
+            "palabra": "Tomato",
             "correcta": true
           },
           {
-            "palabra": "Mother",
+            "palabra": "Apple",
             "correcta": false
           },
           {
-            "palabra": "Water",
+            "palabra": "Pinaple",
             "correcta": false
           },
           {
-            "palabra": "Sister",
+            "palabra": "Orange",
+            "correcta": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Travel",
+    "icono": "fa-solid fa-plane",
+    "color": "#f2a17a",
+    "preguntas": [
+      {
+        "id": 1,
+        "palabra": "Avión",
+        "respuestas": [
+          {
+            "palabra": "Car",
+            "correcta": false
+          },
+          {
+            "palabra": "Bicycle",
+            "correcta": false
+          },
+          {
+            "palabra": "Train",
+            "correcta": false
+          },
+          {
+            "palabra": "Plane",
+            "correcta": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "palabra": "Automóvil",
+        "respuestas": [
+          {
+            "palabra": "Car",
+            "correcta": true
+          },
+          {
+            "palabra": "Train",
+            "correcta": false
+          },
+          {
+            "palabra": "Plane",
+            "correcta": false
+          },
+          {
+            "palabra": "Bicycle",
             "correcta": false
           }
         ]

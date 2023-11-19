@@ -3,14 +3,20 @@ const usuarios = require('./data/usuarios.json');
 const categorias = require('./data/categorias.json');
 const cors = require('cors');
 const app = express();
-const port = 3001;
+const port = 3000;
 
 app.use(cors());
 app.use(express.json());
 
 // Get all usuarios
 app.get('/usuarios', (req, res) => {
-  res.send(usuarios);
+  const users = [];
+  usuarios.forEach(item => {
+    const u = {...item};
+    delete u.resultados;
+    users.push(u)
+  });
+  res.send(users);
 });
 
 // Get a usuario by id
